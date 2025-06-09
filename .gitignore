@@ -1,1 +1,5 @@
 .DS_Store
+*.py
+*.jld2
+*.geojson
+*.npy
