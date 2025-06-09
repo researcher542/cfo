@@ -6,7 +6,7 @@ This software code is to support our manuscript "Maximizing Heavy-Duty E-Truck D
 
 ### Step 0 Download the code
 Due to the storage restriction of Github, we may not upload the binary data (e.g., network data, carbon intensity data, etc.) via Git. 
-Therefore, we recommend the user to download the bundle of the code and data from the [release page]() of this repository.
+Therefore, we recommend the user to download the bundle of the code and data (named `cfo-bundle.zip`)  from the [release page](https://github.com/researcher542/cfo/releases/) of this repository.
 
 
 ### Step 1 Install Julia 
