@@ -4,6 +4,11 @@ This software code is to support our manuscript "Maximizing Heavy-Duty E-Truck D
 
 ## Installation
 
+### Step 0 Download the code
+Due to the storage restriction of Github, we may not upload the binary data (e.g., network data, carbon intensity data, etc.) via Git. 
+Therefore, we recommend the user to download the bundle of the code and data from the [release page]() of this repository.
+
+
 ### Step 1 Install Julia 
 This software code is written in the [Julia](https://julialang.org/) Language.
 The users are kindly directed to follow the [installation guide](https://julialang.org/downloads/) to install the Julia.
