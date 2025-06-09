@@ -1,0 +1,7 @@
+*.txt
+*.json
+*.osm*
+*.csv
+*.sqlite
+*.zip
+*.xlsx
