@@ -21,7 +21,6 @@ cd E2PilotCFO
 julia --project=. -t auto            # Enter the Julia REPL 
 import Pkg
 Pkg.instantiate()
-Pkg.test()
 ```
 This step might take 5-10 minutes depending on the hardware performance and the network condition.
 
