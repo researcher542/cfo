@@ -37,14 +37,6 @@ function get_result_file_name(res::CfoResult)
         file_name *= @sprintf ".mul=%.3f" renewable_mul
     end
 
-    # if carbon_dataset != CambiumDataset() 
-    #     predict_mode_str = prediction_mode2str(predict_mode)
-    #     carbon_dataset_str = carbon_dataset2str(carbon_dataset)
-    #     if !isempty(predict_mode_str)
-    #         file_name *= ".$(carbon_dataset_str).$predict_mode_str"
-    #     end
-    # end
-    
     file_name *= ".jld2"
     return file_name
 end

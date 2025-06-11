@@ -243,7 +243,8 @@ function get_result_key(alg_name::String, t_ratio::Float64, alpha::Float64, st::
     predict_mode = PredictPerfect(), 
     carbon_dataset = CambiumDataset())
     if !occursin("fast", alg_name) && !occursin("practice", alg_name)
-        alg_name = @sprintf "%s-ratio=%.3f-st=%s" alg_name t_ratio st
+        st_str = Dates.format(st, "yyyy-mm-dd-HH.MM.SS")
+        alg_name = @sprintf "%s-ratio=%.3f-st=%s" alg_name t_ratio st_str
         if alpha != 0.05
             alg_name = @sprintf "%s-alpha=%.3f" alg_name alpha
         end
